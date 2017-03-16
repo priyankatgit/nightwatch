@@ -1,0 +1,41 @@
+01:11:44.131 INFO - Launching a standalone Selenium Server
+01:11:44.225 INFO - Java: Oracle Corporation 25.101-b13
+01:11:44.225 INFO - OS: Windows 10 10.0 amd64
+01:11:44.240 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+01:11:44.303 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+01:11:44.318 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+01:11:44.318 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+01:11:44.318 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+01:11:44.318 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+01:11:44.449 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+01:11:44.449 INFO - Selenium Server is up and running
+01:11:44.766 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=First, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+01:11:44.781 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=First, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 29205
+Only local connections are allowed.
+01:11:47.176 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=First, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+01:11:47.210 INFO - Executing: [get: http://www.google.com])
+01:11:52.611 INFO - Done: [get: http://www.google.com]
+01:11:52.625 INFO - Executing: [find elements: By.cssSelector: body])
+01:11:52.660 INFO - Done: [find elements: By.cssSelector: body]
+01:11:52.676 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: body]])
+01:11:52.697 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: body]]
+01:11:52.721 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+01:11:52.748 INFO - Done: [find element: By.cssSelector: input[type=text]]
+01:11:52.757 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+01:11:52.835 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+01:11:52.851 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+01:11:52.887 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+01:11:52.891 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: button[name=btnG]]])
+01:11:52.919 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: button[name=btnG]]]
+01:11:52.924 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+01:11:52.975 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+01:11:52.981 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: button[name=btnG]]])
+01:11:53.082 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: button[name=btnG]]]
+01:11:54.092 INFO - Executing: [find element: By.cssSelector: #main])
+01:11:54.253 INFO - Done: [find element: By.cssSelector: #main]
+01:11:54.258 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: #main]])
+01:11:54.690 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (ba5c3fb2eff394631a03ed66f0d1f7d1)] -> css selector: #main]]
+01:11:54.708 INFO - Executing: [delete session: 53915f27-4309-49fe-b1ea-8ee178f87217])
+01:11:55.695 INFO - Done: [delete session: 53915f27-4309-49fe-b1ea-8ee178f87217]
