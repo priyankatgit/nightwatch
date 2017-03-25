@@ -8,7 +8,9 @@
     "nightwatch": "^0.9.12",
     "selenium-download": "^2.0.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nightwatch-slack-reporter": "0.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
